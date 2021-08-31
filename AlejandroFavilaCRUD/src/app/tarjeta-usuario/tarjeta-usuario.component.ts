@@ -10,8 +10,9 @@ export class TarjetaUsuarioComponent implements OnInit {
   @Input() post: any;
 
   constructor() { }
-
+  tel:any;
   ngOnInit(): void {
+    this.tel = this.post.phone.substring(0,3) + ' ' + this.post.phone.substring(3,6)+ ' ' + this.post.phone.substring(6,10);
   }
   edit(user:Post ){
     console.log("editar");
