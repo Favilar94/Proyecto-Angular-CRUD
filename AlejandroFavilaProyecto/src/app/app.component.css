@@ -1,0 +1,11 @@
+.flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+}

@@ -1,0 +1,20 @@
+<div class="card">
+    <div class="header">
+        <div class="name">
+            <h3>{{post.firstName}} {{post.lastName}}</h3>
+        </div>
+        <div class="closeButton">
+            <img src="../../assets/icono_editar.svg" alt="editar" (click)="edit(post)"/>
+        </div>
+    </div>
+    <div class="body">
+        <div class="imageHolder"><img [ngClass] = "post.gender == 'm' ? 'imageHolderM' : 'imageHolderF' " alt="icon"></div>
+        <div class="aboutUser">
+            <h3>{{post.location}}</h3>
+            <h3>{{post.phone}}</h3>
+        </div>
+    </div>
+
+</div>
+
+

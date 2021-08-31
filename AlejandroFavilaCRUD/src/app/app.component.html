@@ -1,0 +1,14 @@
+<app-header></app-header>
+<app-navbar (searchValue) ='OnApplyFilter($event)'></app-navbar>
+
+<div class="flex-container">
+
+  <app-tarjeta-usuario *ngFor = "let post of posts | filter:filterTerm" [post]="post">
+  </app-tarjeta-usuario>
+
+
+</div>
+
+
+
+<router-outlet></router-outlet>
