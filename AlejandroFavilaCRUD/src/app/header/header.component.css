@@ -22,13 +22,3 @@
     padding: 14px,20px;
     text-decoration: none;
 }
-
-@media screen and (max-width: 600px){
-    .header div{
-    float: none;
-    }
-
-    .header h1{
-        float: none;
-    }
-}

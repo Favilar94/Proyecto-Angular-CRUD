@@ -3,9 +3,7 @@
     font-family: Poppins;
     src: url(assets/font/Poppins-Bold.otf) format("opentype");
   }
-body{
-  min-width: 400px;
-}
+
 * {
     box-sizing: border-box;
     margin: 0;
